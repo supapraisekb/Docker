@@ -69,9 +69,12 @@ sudo docker run hello-world
 
 # 7. Add docker to the usermod to prevent always requestion user password
 
-- sudo usermod -aG docker (username)
+- 
+```
+sudo usermod -aG docker (username)
+```
 
-username can be gotten using the whoami command
+replace "username" with your username which can be gotten using the ``whoami`` command
 
 # 6. Uninstall Docker Engine
 
