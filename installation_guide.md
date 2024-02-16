@@ -67,7 +67,13 @@ sudo docker run hello-world
 
 ```
 
-# 5. Uninstall Docker Engine
+# 7. Add docker to the usermod to prevent always requestion user password
+
+- sudo usermod -aG docker (username)
+
+username can be gotten using the whoami command
+
+# 6. Uninstall Docker Engine
 
 - Uninstall the Docker Engine, CLI, containerd, and Docker Compose packages using this code
 
